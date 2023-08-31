@@ -2,12 +2,12 @@
 @import url("https://fonts.cdnfonts.com/css/minecraft-4");
 
 .title-container {
-  height: 40vh;
+  height: 38vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px;
-  gap: 20px;
+  padding: 24px;
+  /* gap: 20px; */
 }
 
 .title {

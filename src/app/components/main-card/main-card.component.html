@@ -2,14 +2,13 @@
   <a href="#"
     ><img
       ngClass="main-card-img"
-      src="../../../assets/card-img.svg"
+      src="{{ mainCardImg }}"
       alt="Illustration of a man sitting on a chair thinking of new business ideas"
   /></a>
 
-  <span ngClass="main-card-span-type">HTML</span>
-  <span ngClass="main-card-span-date">16/10/2022</span>
+  <span ngClass="main-card-span-type">{{ mainCardSpanType }}</span>
+  <span ngClass="main-card-span-date">{{ mainCardSpanDate }}</span>
   <a href="#" ngClass="main-card-title">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facilis
-    cupiditate facer ipsum!
+    {{ mainCardTitle }}
   </a>
 </div>

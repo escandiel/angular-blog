@@ -8,9 +8,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TitleComponent } from './components/title/title.component';
 import { MainCardComponent } from './components/main-card/main-card.component';
+import { OtherCardComponent } from './components/other-card/other-card.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, TitleComponent, MainCardComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, TitleComponent, MainCardComponent, OtherCardComponent],
   imports: [BrowserModule, AppRoutingModule, NgxTypedJsModule],
   providers: [],
   bootstrap: [AppComponent],

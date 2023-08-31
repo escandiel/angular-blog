@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-main-card',
@@ -7,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainCardComponent implements OnInit {
   public mainCardContainer: string = 'main-card-container';
-  public mainCardImg: string = 'main-card-img';
-  public mainCardSpanType: string = 'main-card-span-type';
-  public mainCardSpanDate: string = 'main-card-span-date';
-  public mainCardTitle: string = 'main-card-title';
+
+  @Input()
+  public mainCardImg: string = '';
+  @Input()
+  public mainCardSpanType: string = '';
+  @Input()
+  public mainCardSpanDate: string = '';
+  @Input()
+  public mainCardTitle: string = '';
   constructor() {}
 
   ngOnInit(): void {}
