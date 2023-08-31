@@ -7,18 +7,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TitleComponent } from './components/title/title.component';
-import { BgCardComponent } from './components/bg-card/bg-card.component';
-import { MainContentComponent } from './components/main-content/main-content.component';
+import { MainCardComponent } from './components/main-card/main-card.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    HomeComponent,
-    TitleComponent,
-    BgCardComponent,
-    MainContentComponent,
-  ],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, TitleComponent, MainCardComponent],
   imports: [BrowserModule, AppRoutingModule, NgxTypedJsModule],
   providers: [],
   bootstrap: [AppComponent],
