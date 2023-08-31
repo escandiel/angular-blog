@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TitleComponent } from './components/title/title.component';
 import { BgCardComponent } from './components/bg-card/bg-card.component';
+import { MainContentComponent } from './components/main-content/main-content.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { BgCardComponent } from './components/bg-card/bg-card.component';
     HomeComponent,
     TitleComponent,
     BgCardComponent,
+    MainContentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxTypedJsModule],
   providers: [],
