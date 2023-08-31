@@ -1,0 +1,97 @@
+@import url("https://fonts.cdnfonts.com/css/minecraft-4");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+.profile-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 16px 0;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  /* gap: 24px; */
+  /* width: 60vw; */
+}
+
+.profile-img {
+  width: 120px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-family: "VT323", monospace;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.5;
+  color: white;
+  padding: 24px;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.profile-name:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e77bc1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.profile-name:hover,
+.profile-name:focus,
+.profile-name:active {
+  color: #fff;
+}
+.profile-name:hover:before,
+.profile-name:focus:before,
+.profile-name :active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.profile-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile-icons {
+  text-decoration: none;
+  padding: 0;
+}
+
+.primary-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.secondary-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}

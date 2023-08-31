@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.cdnfonts.com/css/minecraft-4");
+
+.title-container {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 20px;
+}
+
+.title {
+  font-family: "Minecraft", sans-serif;
+  font-size: 42px;
+  color: white;
+}
