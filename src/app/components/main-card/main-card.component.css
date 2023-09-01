@@ -26,6 +26,18 @@ span {
   align-items: flex-start;
   padding: 16px;
   margin: 0;
+
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.main-card-container:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-radius: 16px;
+  box-shadow: 2px 2px 8px rgba(188, 146, 249, 0.7);
 }
 
 .main-card-img {
@@ -35,16 +47,16 @@ span {
   margin: 0;
   padding: 0;
 
-  -webkit-transform: scale(1);
+  /* -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out; */
 }
 
-.main-card-img:hover {
+/* .main-card-img:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
 
 .main-card-span-type {
   font-size: 16px;
