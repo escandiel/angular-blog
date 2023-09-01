@@ -5,24 +5,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
 }
-
-/* .profile-icons-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
-
-/* .profile-icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
 
 .profile-info {
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  padding-right: 48px;
 }
 
 .profile-img {

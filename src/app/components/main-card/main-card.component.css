@@ -34,6 +34,16 @@ span {
   border-radius: 8px;
   margin: 0;
   padding: 0;
+
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.main-card-img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .main-card-span-type {
