@@ -1,17 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 @import url("https://fonts.cdnfonts.com/css/minecraft-4");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .title-container {
-  height: 38vh;
+  height: 60vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px;
+  margin-top: 90px;
   /* gap: 20px; */
 }
 
 .title {
-  font-family: "Minecraft", sans-serif;
-  font-size: 42px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 160px;
   color: white;
+  display: inline-block;
 }

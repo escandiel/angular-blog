@@ -2,5 +2,20 @@
   margin: 0;
   padding: 0 24px;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: black;
+  padding: 16px 0;
+  /* width: 100vw; */
+  width: 100vw;
+  /* display: flex;
+  justify-content: flex-start; */
 }
