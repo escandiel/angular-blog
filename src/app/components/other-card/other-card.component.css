@@ -4,20 +4,21 @@
 }
 
 .small-card {
-  margin-top: 2em;
+  margin: 16px;
+
   overflow: hidden;
   width: 400px;
   height: 150px;
   border: 1px solid white;
   border-radius: 8px;
   display: flex;
+  gap: 20px;
   /* flex-direction: column; */
 }
 
 .small-card-content {
   display: flex;
   flex-direction: column;
-  padding: 8px;
 }
 
 .card-img {

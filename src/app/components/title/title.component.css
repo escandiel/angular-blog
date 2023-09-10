@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .title-container {
-  height: 60vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,9 +12,10 @@
 
 .title {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 162px;
+  font-size: 166px;
   color: white;
-
+  padding: 0;
+  margin: 0;
   display: inline-block;
   transition: transform 0.3s ease;
 }
