@@ -1,6 +1,8 @@
 <div ngClass="small-card">
   <img ngClass="card-img" src="{{ otherCardImg }}" alt="" />
-  <span ngClass="type"></span>
-  <span ngClass="date"></span>
-  <h1 ngClass="title"></h1>
+  <div ngClass="small-card-content">
+    <span ngClass="type">{{ otherCardType }}</span>
+    <span ngClass="date"> {{ otherCardDate }}</span>
+    <h1 ngClass="title">{{ otherCardTitle }}</h1>
+  </div>
 </div>
