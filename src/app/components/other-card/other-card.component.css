@@ -14,6 +14,18 @@
   display: flex;
   gap: 20px;
   /* flex-direction: column; */
+
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.small-card:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(188, 146, 249, 0.7);
 }
 
 .small-card-content {
