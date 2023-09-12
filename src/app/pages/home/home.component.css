@@ -27,4 +27,7 @@
 .small-card-container {
   display: flex;
   flex-direction: column;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 36px;
 }

@@ -3,13 +3,16 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .small-card {
   margin: 16px;
-
   overflow: hidden;
   width: 400px;
   height: 150px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 8px;
   display: flex;
   gap: 20px;
@@ -31,20 +34,22 @@
 .small-card-content {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .card-img {
   width: 150px;
   height: 150px;
+  border-radius: 8px;
 }
 
 .type {
-  color: white;
+  color: #bc92f9;
   font-family: "Poppins", sans-serif;
 }
 
 .date {
-  color: white;
+  color: #ddddff70;
   font-family: "Poppins", sans-serif;
 }
 
@@ -52,4 +57,7 @@
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  padding: 4px 0;
+  line-height: 28px;
+  font-weight: 300;
 }
