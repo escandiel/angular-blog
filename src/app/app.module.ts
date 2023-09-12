@@ -9,9 +9,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { TitleComponent } from './components/title/title.component';
 import { MainCardComponent } from './components/main-card/main-card.component';
 import { OtherCardComponent } from './components/other-card/other-card.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, TitleComponent, MainCardComponent, OtherCardComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, TitleComponent, MainCardComponent, OtherCardComponent, ContentComponent],
   imports: [BrowserModule, AppRoutingModule, NgxTypedJsModule],
   providers: [],
   bootstrap: [AppComponent],
