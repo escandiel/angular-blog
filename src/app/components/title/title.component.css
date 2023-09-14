@@ -24,3 +24,12 @@
   transition: 2s ease-in-out;
   color: rgba(188, 146, 249, 0.7);
 }
+
+@media (min-width: 1201px) {
+  .title-container {
+    margin-top: 48px;
+  }
+  .title {
+    font-size: 102px;
+  }
+}

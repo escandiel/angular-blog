@@ -31,3 +31,13 @@
   margin-left: 0;
   margin-right: 36px;
 }
+
+@media (min-width: 1201px) {
+  .cards-container {
+    padding: 0;
+  }
+
+  .small-card-container {
+    display: none;
+  }
+}
