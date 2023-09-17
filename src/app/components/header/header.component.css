@@ -91,5 +91,13 @@
   font-weight: 300;
 }
 
-@media (min-width: 1201px) {
+@media (max-width: 1600px) {
+  .profile-info {
+    padding: 0;
+  }
+
+  .profile-icons-container {
+    padding: 0;
+    margin: 0;
+  }
 }

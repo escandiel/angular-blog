@@ -32,7 +32,7 @@
   margin-right: 36px;
 }
 
-@media (min-width: 1201px) {
+@media (max-width: 1600px) {
   .cards-container {
     padding: 0;
   }

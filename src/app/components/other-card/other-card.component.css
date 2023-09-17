@@ -61,9 +61,3 @@ a {
   line-height: 28px;
   font-weight: 300;
 }
-
-@media (min-width: 1201px) {
-  .small-card {
-    display: none;
-  }
-}
