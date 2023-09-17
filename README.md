@@ -1,27 +1,23 @@
-# Blog
+# TheCodeBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+## Visão Geral
 
-## Development server
+Bem-vindo ao TheCodeBlog, um projeto desenvolvido como parte do bootcamp Fullstack Developer do Santander. Esta simples aplicação web foi criada para demonstrar conceitos fundamentais de Angular e TypeScript, enquanto proporciona uma plataforma interativa de blogs.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Recursos
 
-## Code scaffolding
+- **Interface Interativa**: O TheCodeBlog oferece uma interface de usuário simples, porém interativa, proporcionando uma experiência prática com componentes do Angular e interações de interface.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Páginas Dinâmicas**: Explore páginas dinâmicas que demonstram o uso de data-binding e navegação em Angular, permitindo que você navegue por postagens de blog.
 
-## Build
+- **Responsividade**: O TheCodeBlog é responsivo, adaptando-se a diferentes tamanhos de tela para proporcionar uma experiência consistente em diversos dispositivos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Licença
 
-## Running unit tests
+Este projeto é de código aberto e está disponível sob a [Licença MIT](LICENSE). Sinta-se à vontade para usá-lo para fins educacionais ou como ponto de partida para seus próprios projetos em Angular e TypeScript.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contato
 
-## Running end-to-end tests
+Se tiver alguma dúvida ou precisar de ajuda, você pode nos contatar pelo email [seu.email@example.com](joaoescandielb@gmail.com).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Obrigado por fazer parte do projeto TheCodeBlog no bootcamp Fullstack Developer do Santander!
