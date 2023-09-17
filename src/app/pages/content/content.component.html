@@ -2,10 +2,10 @@
 
 <div ngClass="container-content">
   <div ngClass="content-title">
-    Why JavaScript Might Be One of the Best Languages to Learn Programming?
+    {{ contentTitle }}
   </div>
   <div ngClass="content-subtitle">
-    Why JavaScript Might Be One of the Best Languages to Learn Programming?
+    {{ contentSubtitle }}
   </div>
   <div ngClass="content-profile">
     <img src="https://www.github.com/escandiel.png" alt="" />
@@ -13,34 +13,11 @@
     <span>August 31, 2023</span>
   </div>
   <div ngClass="content-img">
-    <img
-      ngClass="img-cover"
-      src="https://blog.tubikstudio.com/wp-content/uploads/2018/02/illustration_design_in_progress_tubik.png"
-      alt=""
-    />
+    <img ngClass="img-cover" src="{{ contentImg }}" alt="" />
   </div>
   <div ngClass="content-article">
     <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid corrupti
-      sed id, vero esse fugit dolor sint deserunt cupiditate voluptatum.
-      Obcaecati, sapiente eius ratione qui sequi eligendi laboriosam enim
-      veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quasi
-      ullam quod recusandae perspiciatis ut odit, vitae a, voluptatum
-      consequatur magni tempore quos veritatis natus repudiandae. Quae
-      repudiandae illo quaerat. Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Nostrum, totam repudiandae placeat aliquam fugiat
-      excepturi voluptate voluptatum fuga tenetur provident, accusantium commodi
-      veritatis sed sint magnam, blanditiis voluptatem odit distinctio. Lorem
-      ipsum dolor sit, amet consectetur adipisicing elit. Eum cum placeat libero
-      amet, cupiditate cumque nostrum id totam excepturi praesentium consectetur
-      porro deleniti veritatis? Esse voluptatibus maxime cumque maiores nam?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, itaque
-      consequatur corporis accusamus voluptate doloribus asperiores delectus
-      facere, iure cupiditate ipsum beatae labore illo reprehenderit? Quas qui
-      aliquam harum asperiores? Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Molestiae aspernatur, enim deleniti cum adipisci
-      aliquid, quos impedit assumenda tempora maxime provident blanditiis
-      asperiores eaque? Eaque non maiores harum ab. Molestiae!
+      {{ contentArticle }}
     </p>
   </div>
 </div>

@@ -14,6 +14,8 @@ export class OtherCardComponent implements OnInit {
   public otherCardDate: string = '';
   @Input()
   public otherCardTitle: string = '';
+  @Input()
+  Id: string = '0';
 
   constructor() {}
 

@@ -1,10 +1,10 @@
 <div ngClass="small-card">
-  <a href="#">
+  <a [routerLink]="['content', Id]">
     <img ngClass="card-img" src="{{ otherCardImg }}" alt="" />
   </a>
   <div ngClass="small-card-content">
     <span ngClass="type">{{ otherCardType }}</span>
     <span ngClass="date"> {{ otherCardDate }}</span>
-    <a href="#" ngClass="title">{{ otherCardTitle }}</a>
+    <a [routerLink]="['content', Id]" ngClass="title">{{ otherCardTitle }}</a>
   </div>
 </div>
