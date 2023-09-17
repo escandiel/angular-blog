@@ -16,6 +16,9 @@ export class MainCardComponent implements OnInit {
   public mainCardSpanDate: string = '';
   @Input()
   public mainCardTitle: string = '';
+  @Input()
+  public Id: string = '0';
+
   constructor() {}
 
   ngOnInit(): void {}

@@ -1,5 +1,5 @@
 <div ngClass="main-card-container">
-  <a href="#"
+  <a [routerLink]="['content', Id]"
     ><img
       ngClass="main-card-img"
       src="{{ mainCardImg }}"
@@ -8,7 +8,7 @@
 
   <span ngClass="main-card-span-type">{{ mainCardSpanType }}</span>
   <span ngClass="main-card-span-date">{{ mainCardSpanDate }}</span>
-  <a href="#" ngClass="main-card-title">
+  <a [routerLink]="['content', Id]" ngClass="main-card-title">
     {{ mainCardTitle }}
   </a>
 </div>
